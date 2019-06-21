@@ -24,15 +24,26 @@ In this challenge, create a web API around the following resources: `Projects` a
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Mention two parts of Express that you learned about this week.
+- [x] Mention two parts of Express that you learned about this week. 
 
-- [ ] Describe Middleware?
+Express is a web application framework that sits on top of the Node.js web server (http server module). It’s like React, for your backend.
 
-- [ ] Describe a Resource?
+Expresss sits on top of the raw http server module provided by Node.js and adds extra functionality, like routing and middleware support, and a simpler API.
 
-- [ ] What can the API return to help clients know if a request was successful?
+- [x] Describe Middleware?
+Functions that get the request and response objects and can operate on them and either return the response or call the next middleware in the pipeline. Examples are logging or security.
 
-- [ ] How can we partition our application into sub-applications?
+- [x] Describe a Resource?
+
+API is server software that publishes a set of endpoints that clients can use to manage resources.
+
+- [x] What can the API return to help clients know if a request was successful?
+
+an API is server software that publishes a set of endpoints that clients can use to manage resources.
+
+- [x] How can we partition our application into sub-applications? 
+
+Express Routers are a way to split an application into sub-applications to make it more modular and easier to maintain and reason about.
 
 ## Project Setup
 
